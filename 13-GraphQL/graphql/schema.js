@@ -5,12 +5,13 @@ type TestData{
     text: String!
     amount: Int!
 }
-type RootQuery{
-    message: TestData!
+
+type Query{
+    message: String!
 }
 
 schema{
-    query: RootQuery
+    query: Query
 }
 
 `);

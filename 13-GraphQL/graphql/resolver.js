@@ -1,8 +1,5 @@
 module.exports = {
   message() {
-    return {
-      text: "Hello GraphQL",
-      amount: 5,
-    };
+    return "Hello, This is a string";
   },
 };

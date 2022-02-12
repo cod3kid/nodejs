@@ -1,5 +1,5 @@
 {
-  "name": "13-graphql",
+  "name": "14-graphql-apollo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
-    "express-graphql": "^0.12.0",
+    "apollo-server": "^3.6.3",
     "graphql": "^16.3.0"
   }
 }
