@@ -7,11 +7,23 @@ const typeDefs = gql`
     username: String!
     age: Int!
     nationality: Nationality!
+    friends: [User]
   }
 
   type Query {
     users: [User!]!
-    test: String
+    user(id: ID!): User!
+  }
+
+  input CreateUserInput {
+    name: String!
+    username: String!
+    age: Int!
+    nationality: Nationality = Japanese
+  }
+
+  type Mutation {
+    createUser(input: CreateUserInput!): User
   }
 
   enum Nationality {

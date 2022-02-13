@@ -5,6 +5,15 @@ const userList = [
     username: "itachiuchiha",
     age: 21,
     nationality: "Japanese",
+    friends: [
+      {
+        id: 2,
+        name: "Hashirama Senju",
+        username: "iamhashirama",
+        age: 84,
+        nationality: "Japanese",
+      },
+    ],
   },
   {
     id: 2,
