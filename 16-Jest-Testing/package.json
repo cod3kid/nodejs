@@ -1,0 +1,19 @@
+{
+  "name": "16-jest-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
